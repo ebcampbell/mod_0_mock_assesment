@@ -1,0 +1,57 @@
+Making a sandwich:
+
+1. Open fridge
+  1.1 Use arm to open door of fridge
+  1.2 Gather items
+    1.1.1 Get bread
+    1.1.2 Get mayo
+    1.1.3 Get sliced meat
+    1.1.4 Get tomato
+    1.1.5 Get lettuce
+  1.3 Close door of fridge
+2. Place items on counter
+3. Get Bread
+  3.1 Untwist tie from bread bag
+    3.3.1 Grab 2 pieces of bread from bag
+  3.3 Put bread on counter
+    3.3.1 Put pieces next to each other
+  3.4 Close bread bag
+4. Apply mayo to bread
+  4.1 Twist top of jar off
+  4.2 Open sliverware drawer
+    4.4.1 Grab knife
+  4.3 Close silverware drawer
+  4.4 Put knife in mayo jar
+  4.5 Remove knife from mayo jar
+  4.6 Apply mayo to one slice of bread
+  4.7 Close mayo jar
+5. Add lettuce
+  5.1 Wash one piece of lettuce
+    5.5.1 Turn sink on
+    5.5.2 Put Lettuce under water
+    5.5.3 Remove lettuce from water
+    5.5.4 Turn water off
+  5.2 Put lettuce on bread mayo on it
+6. Add tomato
+  6.1 Wash one piece of lettuce
+    6.6.1 Turn sink on
+    6.6.2 Put tomato under water
+    6.6.3 Remove tomato from water
+    6.6.4 Turn water off
+  6.2 Use knife to cut slices of tomato
+    6.6.1 Grab cutting board
+    6.6.2 Cut tomato
+  6.3 Put tomato on bread with lettuce on it
+  7. Add meat
+    7.1 Open meat bag
+    7.2 Get three slices of meat
+    7.3 Close meat bag
+    7.4 Put meat on bread
+  8. Put undressed bread slice on top of dressed slice
+  9 Cut in half
+    9.1 Get knife
+    9.2 Cut sandwich in half
+    9.3 Put knife down
+  10 Get plate
+  11 Put on plate
+  12 Eat 
