@@ -1,0 +1,61 @@
+PLANT: Mint
+
+Attributes:
+ - family 'string'
+ - height(ft) integer
+ - root_depth(ft) integer
+ - light_tolerance 'string'
+ - isOutdoor/Indoor boolean
+
+ Methods:
+ - grow affects height
+ - water affects root_depth
+ - prune affects height
+ - transplant affects isoutdoor/indoor
+
+CHILD: Cousin Dominque
+
+Attributes:
+- date_of_birth integer
+- parents 'string'
+- weight integer
+- isfemale boolean
+- address 'string'
+
+Methods:
+- born affects Date_of_birth
+- adopted affects parents (changes to biological or adopted)
+- eat affects weight
+- move affects address
+- self_identify affect isfemale
+- calculate_age (subtracts current year from date_of_birth )
+
+BOAT: Sailboat
+
+Attributes:
+- current_number_of_persons_aboard integer
+- color 'string'
+- speed integer
+- sail_quantiy integer
+- gas_tank boolean
+
+Methods:
+- reserve affects current_number_of_persons_aboard (subtract max_number_of_persons_aboard from current_number_of_persons_aboard )
+- speed affected by sail_quantiy
+- paint affects color attribute
+- refill affects gas_tank
+
+DOG: Wolf
+
+Attributes:
+- pet boolean
+- fur_color 'string'
+- ishappiness boolean
+- bladder_fullness
+- current_bladder_capacity
+
+Methods:
+- get_older (increase age, fur_color will change at 'x' number)
+- play affects happiness
+- drink (adds amount to current_bladder_capacity, must stop at bladder_fullness)
+- go_outside affects current_bladder_capacity (bladder_capacity sets to 0%)
