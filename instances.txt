@@ -1,0 +1,83 @@
+<b>BOAT:</b>
+
+Attributes:
+- currentNumberOfPersonsAboard integer
+- color 'string'
+- speed integer
+- sailsInUse integer
+- gasTank boolean
+
+Methods:
+- reserve (subtract max_number_of_persons_aboard from current_number_of_persons_aboard ) returns how many spots are left to reserve
+- speedUp (changes sailsInUse to higher number)
+- paint (changes the color attribute)
+- refillGas (if empty changes gasTank to False)
+
+Instance: Sailboat
+
+Attributes:
+- currentNumberOfPersonsAboard 5
+- color 'white'
+- speed(mph) 40
+- sailsInUse 2
+- gasTank True
+- maxNumberOfPersonsAboard 12
+
+Methods:
+- reserve: 12 - 5 = 7
+- speedUp: sailsInUse 3
+- paint: color = 'blue'
+- refillGas: gasTank = False
+
+Instance: Row Boat
+
+Attributes:
+- currentNumberOfPersonsAboard 2
+- color 'brown'
+- speed(mph) 5
+- sailsInUse 0
+- gasTank null
+-maxNumberOfPersonsAboard 4
+
+Methods:
+- reserve: 4 - 2 = 2
+- speedUp: sailsInUse null
+- paint: color = 'black'
+- refillGas: gasTank = null
+
+<hr>
+
+<b>PLANT:</b>
+
+Instance: Mint
+
+Attributes:
+ - family: 'Lamiaceae'
+ - current_height(in): 24
+ - max_height(in): 84
+ - soil_moisture: 'wet'
+ - isOutdoor: True
+ - initial_height(in): 7
+
+
+ Methods:
+ - calculateGrowth: 24 - 7 return value is 17
+ - water: sets soil_moisture to dry every x amount of days
+ - growUp: when 'water' occurs current_height increases by 2
+ -prune: current_height == max_height return value is yes
+
+ Instance: Peace Lily
+
+ Attributes:
+  - family: 'Araceae'
+  - current_height(in): 40
+  - max_height(in): 50
+  - light_tolerance: 'partial'
+  - isOutdoor: False
+  - initial_height(in): 24
+
+  Methods:
+  - calculateGrowth: 40 - 24 = 16
+  - water: sets soil_moisture to dry every x amount days 
+  - growUp: when 'water' occurs current_height increases by 2
+  -prune: 40 < 50 = return value is False.
