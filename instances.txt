@@ -1,4 +1,4 @@
-<b>BOAT:</b>
+BOAT:
 
 Attributes:
 - currentNumberOfPersonsAboard integer
@@ -45,9 +45,7 @@ Methods:
 - paint: color = 'black'
 - refillGas: gasTank = null
 
-<hr>
-
-<b>PLANT:</b>
+PLANT:
 
 Instance: Mint
 
@@ -78,6 +76,6 @@ Attributes:
 
   Methods:
   - calculateGrowth: 40 - 24 = 16
-  - water: sets soil_moisture to dry every x amount days 
+  - water: sets soil_moisture to dry every x amount days
   - growUp: when 'water' occurs current_height increases by 2
   -prune: 40 < 50 = return value is False.
