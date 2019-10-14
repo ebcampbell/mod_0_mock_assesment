@@ -13,7 +13,7 @@ Attributes:
  - calculateGrowth (subtract currentHeight from initialHeight) return value is calculation
  - water (sets soil_moisture to dry every x amount of days)
  - growUp (when 'water' occurs current_height increases by 2)
- -prune: (current_height == max_height return value is yes)
+ -prune: (current_height == max_height return value is True)
 
 BOAT:
 
